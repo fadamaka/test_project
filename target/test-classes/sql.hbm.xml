@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping>
+	
+	<sql-query name="report">
+		<![CDATA[
+select 
+	ebay."Total eBay listing count"+amazon."Total Amazon listing count" "Total listing count",
+	ebay.*,
+	amazon.*,
+	best.owner_email_address "Best lister email address",
+	'Total' "Month" 
+from 
+(select
+	count(id) "Total eBay listing count",
+	sum(listing_price) "Total eBay listing price",
+	round( CAST(avg(listing_price) as numeric), 2) "Average eBay listing price"
+from test_project.listing 
+	where marketplace=1) ebay,
+
+(select
+	count(id) "Total Amazon listing count",
+	sum(listing_price) "Total Amazon listing price",
+	round( CAST(avg(listing_price) as numeric), 2) "Average Amazon listing price"
+from test_project.listing 
+	where marketplace=2) amazon,
+
+(select 
+	count(id) "Count",
+	owner_email_address
+from test_project.listing
+group by owner_email_address
+order by count(id) desc, owner_email_address asc
+limit 1) best
+union
+select 
+	null,
+	main."Total eBay listing count",
+	main."Total eBay listing price",
+	main."Average eBay listing price", 
+	main."Total Amazon listing count",
+	main."Total Amazon listing price",
+	main."Average Amazon listing price",
+	main."Best lister email address of the month",
+	months."Month"
+from (
+select
+	market."Total eBay listing count",
+	market."Total eBay listing price",
+	market."Average eBay listing price", 
+	market."Total Amazon listing count",
+	market."Total Amazon listing price",
+	market."Average Amazon listing price",
+	best.owner_email_address "Best lister email address of the month",
+	market."Month"
+from 
+
+(select 
+	ebay."Total eBay listing count",
+	ebay."Total eBay listing price",
+	ebay."Average eBay listing price", 
+	amazon."Total Amazon listing count",
+	amazon."Total Amazon listing price",
+	amazon."Average Amazon listing price",
+	case
+	when amazon."Month" is null then
+		ebay."Month"
+	else 
+		amazon."Month"
+	end "Month"
+from 
+(select
+	count(id) "Total eBay listing count",
+	sum(listing_price) "Total eBay listing price",
+	round( CAST(avg(listing_price) as numeric), 2) "Average eBay listing price",
+ 	TO_CHAR(upload_time, 'YYYY/MM') "Month"
+from test_project.listing 
+	where marketplace=1
+	group by "Month"
+	order by "Month") ebay full join
+	
+(select
+	count(id) "Total Amazon listing count",
+	sum(listing_price) "Total Amazon listing price",
+	round( CAST(avg(listing_price) as numeric), 2) "Average Amazon listing price",
+ 	TO_CHAR(upload_time, 'YYYY/MM') "Month"
+from test_project.listing 
+	where marketplace=2
+	group by "Month"
+	order by "Month") amazon
+on ebay."Month"=amazon."Month") market,
+	
+(select a.owner_email_address, a."Month" from (
+select 
+	count(id) "Count",
+	owner_email_address,
+	to_char(upload_time, 'YYYY/MM') "Month",
+	row_number()  over (partition by (to_char(upload_time, 'YYYY/MM')) order by count(id) desc,owner_email_address asc) "rownum"
+from test_project.listing
+group by owner_email_address,"Month") a
+where a."rownum"=1) best 
+	
+where best."Month"=market."Month") main right join
+(select 
+	to_char(years.n,'FM9999')||'/'||to_char(months.monthnumber, 'FM09') "Month"
+ from
+(WITH recursive months(MonthNumber) AS
+(
+    values(1)
+    UNION ALL
+    SELECT MonthNumber+1 
+    FROM months
+    WHERE MonthNumber < 12
+)
+select *
+from months) months,
+ 
+(WITH RECURSIVE t(n) AS (
+    VALUES (?1)
+  UNION ALL
+    SELECT n+1 FROM t WHERE n < ?2
+)
+SELECT * FROM t) years) months on main."Month"=months."Month"
+where months."Month"='Total' or (to_date(?3,'YYYY/MM')<=to_date(months."Month",'YYYY/MM') and to_date(months."Month",'YYYY/MM')<=to_date(?4,'YYYY/MM'))
+order by "Month" desc
+		]]>
+	</sql-query>
+	<sql-query name="deleteAll">
+		<![CDATA[
+				delete from test_project.listing where 1=1;
+				delete from test_project.marketplace where 1=1;
+				delete from test_project.listing_status where 1=1;
+				delete from test_project.location where 1=1;
+		]]>
+	</sql-query>
+	
+</hibernate-mapping>

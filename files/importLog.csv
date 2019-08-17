@@ -1,0 +1,562 @@
+e3c32758-15af-43e3-b8cc-cf3b5c80af62,AMAZON, Email address needs to be valid.
+02e40d58-8993-4bec-bd5d-46984ba56987,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+28c5cdbd-e063-438c-8125-13bd0dea85d0,EBAY, Email address needs to be valid.
+15ddedc4-0721-4070-a2d0-9aa38e08969f,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+d6d2cb12-8cad-422a-a0a1-174da56929c2,AMAZON, Violates listing_status_id foreign key.
+baafeff5-e1c1-46c9-b3a6-dc38027ba5cb,AMAZON, Violates listing_status_id foreign key.
+79e8a67d-ea93-43f8-b4b9-303ac1ea70f3,AMAZON, Violates listing_status_id foreign key.
+f46ae149-2127-456c-b56c-bec65ccf007d,EBAY, Email address needs to be valid.
+22557ab4-7406-4406-b1e4-f953553489c3,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+2e83a437-8f8b-4b17-aa41-aff4bf9aaddd,AMAZON, Email address needs to be valid.
+74f4e2d8-5e66-413f-ab63-4b5fce5e86b7,AMAZON, Email address needs to be valid.
+a3a61987-dcc5-4540-8a7a-765fe3b71774,EBAY, Upload_time cannot be null.
+00092ce4-a8f6-4475-8f23-c7822421b979,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+3b0a8dec-b1ba-4c2a-994d-6bc020f4a4d1,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+684a219a-f4b7-4bcc-94f5-8821a1b3e0ec,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+33eead6f-9102-44a0-b60c-2591641a50d4,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+3de38d70-1bf0-4ca6-8c6a-3d28c07b30df,EBAY, Email address needs to be valid.
+e512ad5e-4c5a-4660-a249-768e703dc1d0,EBAY, Email address needs to be valid.
+fe60cb2e-f1e3-45ee-ad87-0c2aadff2213,EBAY, Violates listing_status_id foreign key.
+786a260c-58c5-4172-a065-0c961e814628,EBAY, Upload_time cannot be null. Email address needs to be valid.
+28f2c7b0-99e7-4f95-88c8-9341f2713a3d,AMAZON, Violates listing_status_id foreign key.
+1980b462-cd09-4272-9a0b-e4118899d459,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+37903fa4-ed6b-474e-81f0-93baaa5a9859,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+f97661a7-7779-4452-b2fc-5cb86240bb2d,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+d160602b-5a58-4b41-858c-62bafb93d7fa,EBAY, Upload_time cannot be null.
+bbc13704-f78f-4a47-8656-bd86d83cba4b,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+233ba69a-8695-41a5-becd-a0dc02ebd6e0,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+0de153d8-4660-420d-b246-746f901880a9,EBAY, Email address needs to be valid.
+8cea3192-e176-47bf-8386-5bac27aa26d3,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+1026acc2-5099-435f-9f86-bec5ed2c3c18,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+c1fcc709-1566-4b81-9120-aed9b413f8d3,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+a725ef7d-3c22-4c92-8e0f-9b07a52248ca,EBAY, Email address needs to be valid.
+97f1beed-8c5b-497b-b13f-c8506a2a0fb3,AMAZON, Upload_time cannot be null.
+c4dcecb7-9339-475b-b44d-5ada56cebc48,AMAZON, Violates listing_status_id foreign key.
+a13a8fae-8110-48c4-8859-07ef5d99841d,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+e7347dc8-9d0e-4020-9404-c05769ccade1,EBAY, Violates listing_status_id foreign key.
+adf6712c-1f0f-40d5-94e0-07afdb47110e,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+98a01058-ad7d-4db0-8fd7-87589a1065c0,AMAZON, Email address needs to be valid.
+83dd2d5c-e777-412e-b154-3263fe0f18f9,EBAY, Email address needs to be valid.
+a9aa51c4-6547-4922-bdee-80e833039f1d,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+cd204822-6115-4b4f-b711-47b3a85e6b49,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+5782c647-9c56-48b8-9664-14de534f1648,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+85df857f-f67d-4820-96bd-b0a8942dd9ae,EBAY, Violates listing_status_id foreign key.
+5849f307-181f-4cf8-a85c-ee12f7049ed3,EBAY, Email address needs to be valid.
+1cca7d66-c53d-41bb-90d5-ed4a33a3a55f,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+de5d28b0-7c9f-42f7-be36-e1715c6e1ce2,EBAY, Email address needs to be valid.
+874c4818-5e6f-41c2-973a-47e0f138a1c8,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+9ea13225-075a-4ae2-aa62-845a288d420b,EBAY, Violates listing_status_id foreign key.
+50175009-ef07-44bf-a257-d64a5769923a,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+d77a1e7d-6802-4142-a6ad-d7cba31938a8,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null.
+6cb0d894-f08c-4552-86d9-41e0bcb95040,EBAY, Upload_time cannot be null.
+6e23797f-6725-4e4b-872e-2788efaec237,EBAY, Violates listing_status_id foreign key.
+e296027c-5fb8-4433-8398-4cba505d191e,AMAZON, Violates listing_status_id foreign key.
+5d72df90-0fb0-4442-95da-ea4981e56faf,AMAZON, Email address needs to be valid.
+bd7a4abd-9e65-45f6-89ad-9e26b9ee54cb,EBAY, Violates listing_status_id foreign key.
+465a26e7-2454-46fd-851b-d0bf7fa6c16d,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+64af2516-d59b-4ecf-b9c3-732b078d623f,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+a186dc26-0f5e-4c99-9d29-520586b93282,EBAY, Email address needs to be valid.
+409357c6-c713-4ded-9e2a-404b2deea2b4,AMAZON, Violates listing_status_id foreign key.
+8ee8434f-43b2-4d01-b977-058312b65872,AMAZON, Violates listing_status_id foreign key.
+4dc4034d-bbc7-40ed-8d37-b987ff05552b,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+d20c4fa8-edbc-4f6d-b249-c9e424e0b640,AMAZON, Violates listing_status_id foreign key.
+d17d72a5-fb82-4858-9278-06a0309306ff,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+7bffe7a4-fb41-471f-b2ea-03e7cdbd0984,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+5fd01737-7045-4bb9-a368-a72dffe349df,EBAY, Violates listing_status_id foreign key.
+65531ea7-794f-4be9-af5f-2bd8464683ac,EBAY, Email address needs to be valid.
+f76306bc-0bfa-4dd1-83df-cb515e0ed5ef,AMAZON, Email address needs to be valid.
+4ae9402a-411d-4348-bd7e-133aae743004,EBAY, Violates listing_status_id foreign key.
+c0dfbd11-b399-46e6-a58d-55265b30f2fc,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+f6355183-ab28-470e-9c17-68c9a72a2827,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+ee10b0a0-f155-4dff-9f0d-d7513493f6bb,EBAY, Violates listing_status_id foreign key.
+64518928-3979-4420-9080-797c077961f3,AMAZON, Violates listing_status_id foreign key.
+67200d74-966b-4bd6-b6dd-6d2052bbb801,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+2ea1f37a-580a-4e67-995b-c120dcf284d2,AMAZON, Violates listing_status_id foreign key.
+823391a2-cfb8-464e-9a31-e2ae678df31d,EBAY, Email address needs to be valid.
+8f0f30aa-3815-4880-9d13-d3cfc1198f7e,AMAZON, Email address needs to be valid.
+e395799f-44b5-4a0b-87b0-8e1c09d393d9,AMAZON, Upload_time cannot be null.
+846b8cc6-5eb3-4b55-962f-842492046737,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+20ab4b87-e6da-42d2-b2c4-a7e6c4f52016,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+56569d1c-82f7-4da3-939c-14d12e05b692,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null. Email address needs to be valid.
+60246ae6-9eda-443d-9881-393c091cda0c,AMAZON, Email address needs to be valid.
+a48c5737-d566-4c32-aec8-9444041132b0,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+d7573937-b96a-485c-9c46-34eaa9c5a57b,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+01f4af56-37e1-4afe-bb33-91a5bd018ee7,EBAY, Email address needs to be valid.
+499ee5aa-e334-454a-a826-13c39aa79e98,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+65c8c36f-b64b-4dbb-9b37-8d28010e50f0,EBAY, Violates listing_status_id foreign key.
+e41f19d7-1907-4025-872b-dd006782c8e6,AMAZON, Email address needs to be valid.
+ca2ddc1d-a7ac-4547-8eff-776bf3557290,EBAY, Violates listing_status_id foreign key.
+059a89d8-0a53-451e-b100-b4cd59b6a789,EBAY, Violates listing_status_id foreign key.
+df6eee82-0160-4fd4-8b05-804636892225,AMAZON, Upload_time cannot be null.
+f2d97549-c9c5-418a-a59f-7fb4a134b8dc,AMAZON, Violates listing_status_id foreign key.
+8d958f33-06e0-4dad-bf5e-345bd10d1d45,AMAZON, Violates listing_status_id foreign key.
+aad50419-a169-42d0-9624-68889c9b4879,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+cef305e3-1c05-4cd3-bb36-59069932ff35,EBAY, Email address needs to be valid.
+0ffea3de-aa61-4865-85cf-29ad4c09e760,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+44f37128-9a56-4b83-9746-2113ad2db1ee,EBAY, Email address needs to be valid.
+1312541d-0b54-4ed6-b6e9-1163bc84f3cd,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+8ddb9a91-f5cf-45a8-a326-a39f2121b317,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+94d4a095-6437-4e7f-8207-0083fa9768a2,EBAY, Email address needs to be valid.
+72ae7ad2-88ef-4862-a260-f29d0d21c2d9,EBAY, Upload_time cannot be null. Email address needs to be valid.
+92a0267d-da4b-4318-9178-4c9f83b93a13,EBAY, Upload_time cannot be null.
+a872f1d3-df04-4372-9cee-357b6ec32c22,EBAY, Email address needs to be valid.
+10c77ca8-50cf-4d00-bfd2-5deff349c7c1,EBAY, Violates listing_status_id foreign key.
+9e8d3706-4684-423a-ad0f-cbe43d9b6cc7,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+70d2b05f-37f1-4437-9808-1f8b4cea1bc7,AMAZON, Violates listing_status_id foreign key.
+12e54ee7-6d20-4f13-9673-f9aed22e8add,AMAZON, Violates listing_status_id foreign key.
+3612616d-5d86-4616-8cb5-3b595aace104,EBAY, Email address needs to be valid.
+d6654926-1252-47ee-bf7e-955aae5d54fa,EBAY, Violates listing_status_id foreign key.
+372d7b5d-c987-421b-a5d8-cb4fd8f3093f,AMAZON, Violates listing_status_id foreign key.
+3ef69c92-2a99-453f-921f-f31b4f1069a8,AMAZON, Violates listing_status_id foreign key.
+2baeab38-bdde-4098-8091-787588520b97,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+78c5560f-8b23-4415-8162-f35e90b25831,EBAY, Email address needs to be valid.
+71d49338-d6d4-46ec-b48d-9dc9084db28e,AMAZON, Email address needs to be valid.
+a5d3eb43-0159-4516-9234-df1a45229867,AMAZON, Upload_time cannot be null.
+3ab6a8b7-a9f4-4a64-93a4-98b3f3dab391,AMAZON, Violates listing_status_id foreign key.
+11fe2b75-5a83-4e68-8e1a-7eb7eb75febe,AMAZON, Upload_time cannot be null.
+cd418e80-a389-4855-9da7-2919902d51d4,EBAY, Email address needs to be valid.
+2e16186b-2bd9-437f-87f8-46b0011c177f,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+822e1471-4929-4bff-b4d4-9e971c84fcab,AMAZON, Email address needs to be valid.
+c46f5e00-eb85-4dfc-9720-34bf4538250b,EBAY, Upload_time cannot be null.
+6c293378-d251-46e3-9902-6ce323b7e4ba,EBAY, Email address needs to be valid.
+4396e249-6ab7-45fc-87d2-cbdaffbd6528,EBAY, Email address needs to be valid.
+1c8e6d38-709e-4742-aa4f-349f9c703187,AMAZON, Violates listing_status_id foreign key.
+7c1c40f1-e808-44a0-a38b-522506627669,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+8a531532-98c0-4074-ab05-2d571b6d5b8b,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+9fe0cfea-3b2a-417e-bdca-993dd3b5e83d,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+da8acd7c-bb5e-4d11-a905-0d59790e6d26,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+bd97cb36-3789-4153-a3fb-ff63ab86261e,EBAY, Upload_time cannot be null.
+dbae62a5-3abb-444f-80b8-339193236fab,AMAZON, Email address needs to be valid.
+6c6b687e-9ca4-4c9f-af0d-e5251d35352a,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+0b942a9b-880f-4ac0-bc16-cc92831e205d,EBAY, Violates listing_status_id foreign key.
+bd745d3a-61bb-45af-b386-fa1ca50c600b,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+b89f7a7d-51a9-4818-929f-c2e33d2d0b44,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+1a63d0c2-a29f-4079-a7e0-4c25f20ae068,EBAY, Violates listing_status_id foreign key.
+b3fb132d-4324-4a72-89ba-51a2e36045e5,EBAY, Violates listing_status_id foreign key.
+274d4817-8432-4e9a-bad4-967a3612ad51,AMAZON, Violates listing_status_id foreign key.
+c78f6241-690b-4a10-8181-b40ad216adb3,EBAY, Email address needs to be valid.
+c8994382-b460-436d-ad68-01cc4ac125b1,AMAZON, Violates listing_status_id foreign key.
+c5257222-22a5-4b22-81cb-8e4d93b1d151,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+88643ecb-485c-4ea4-84d1-f1bdc5aa91c8,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+83754169-9d84-4ee3-9b5a-9889891f5d51,EBAY, Violates listing_status_id foreign key.
+d196e1f4-2e6c-40e4-8248-a114b0488e08,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+b63b8d08-bc1d-4c68-beff-e9fb635b5144,EBAY, Email address needs to be valid.
+eff5da10-df18-43fc-92d0-bc8937cb0e67,EBAY, Email address needs to be valid.
+e7bbc23c-ee04-4766-bcbd-150199c64c2b,EBAY, Email address needs to be valid.
+d7c84397-61a3-4231-b134-a08422850331,EBAY, Violates listing_status_id foreign key.
+df75ec36-0a86-4384-ba97-1622d9be3896,AMAZON, Email address needs to be valid.
+84a2e9b3-8b3b-4893-bf9e-fe3f1ca52a72,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+18525ebb-619b-4ce4-b700-c99387c46869,EBAY, Upload_time cannot be null.
+ac6e738d-d8cf-4201-b8eb-2ad40bb229d4,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null. Email address needs to be valid.
+53916f8f-7fa4-4d7f-9c7f-2351a6b46352,AMAZON, Violates listing_status_id foreign key.
+f63b97c8-9829-40f4-afa4-c78256f5272c,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+9055ba73-fafd-4575-941e-f6689a85fd23,EBAY, Email address needs to be valid.
+b4c193d9-82fd-413f-99d1-6020fcd49513,AMAZON, Email address needs to be valid.
+d1293f45-8536-45f1-9a93-2028a9a3fd55,EBAY, Violates listing_status_id foreign key.
+1855d254-3231-4c91-adb3-6ad7a1f6a892,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+c735dda3-d31e-40dd-96a3-db5327d30353,AMAZON, Email address needs to be valid.
+21a41d18-3c3e-43b3-a8d7-435b4306e0ee,AMAZON, Email address needs to be valid.
+e797aebf-ac2b-42bf-ac1b-2650163fc6db,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+66e8ea51-3197-42ee-83e6-8c5f96c0bbdc,AMAZON, Upload_time cannot be null.
+8e0ee680-32fb-4b3e-a6b9-291792db0343,EBAY, Upload_time cannot be null.
+1f727521-2e37-4e23-8c38-f37ba2006088,EBAY, Upload_time cannot be null.
+51f91e19-b525-42b0-ac55-e111b84a18fb,EBAY, Violates listing_status_id foreign key.
+3d461422-17a8-4877-8f98-e91c8ff9ba70,EBAY, Upload_time cannot be null.
+6b66e350-ed92-4a31-9805-3046105cdcdd,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+27a074b9-16e5-4551-88dc-7d2e28ef54ad,AMAZON, Violates listing_status_id foreign key.
+6609736c-8015-4d05-a1ce-78be0fadde9a,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+c4affff5-0948-40aa-a62a-249d5bcd7e17,EBAY, Violates listing_status_id foreign key.
+44144312-766f-465a-b2ee-80704385f2d1,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+61467c86-2619-41db-97eb-8cc1f2ab7452,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+f8aa2151-603d-432f-a415-dddc34e8e8f6,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+b20a89f2-f65a-4f21-8467-31b9eddd6864,AMAZON, Upload_time cannot be null.
+980c786a-0820-4e3e-a562-ba0481b3c4c5,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+feae095d-cac3-4f5e-9e96-5ff6cc641773,EBAY, Upload_time cannot be null.
+6a01a5b7-420e-46d4-8a67-5a6af3308649,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+bbf2ca4f-c7a6-49ac-b866-f58c0f03292e,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+bdaad2a2-3b89-4319-b454-4d40c492948a,EBAY, Upload_time cannot be null.
+126afacc-242e-4449-a5f4-d49791079c63,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+31df7899-7ed6-4521-bc24-9aad39c5a466,AMAZON, Email address needs to be valid.
+181c8c8d-f765-4858-a99b-877527d84d4c,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null. Email address needs to be valid.
+c8870361-0df2-4465-859d-d0bf2821c44f,EBAY, Upload_time cannot be null.
+665f5c8d-d3d2-4ecd-91e7-15ebfe64e766,AMAZON, Email address needs to be valid.
+47df13f0-226f-42d6-a4f1-fbfa9b52936c,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+9a785b4b-ee9e-475c-b605-78b2273bee0c,EBAY, Violates listing_status_id foreign key.
+12639ac0-3829-4fb0-bf89-a095715e6106,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+c2387b8a-f4c1-4287-bebf-f131c4e898ac,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+af44f069-2abc-41e2-ba2e-0675a7babed8,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+3a2f4ab4-fa77-4bea-bdec-fa54477c37d9,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null.
+92c31471-ed56-47a7-984a-7c1ff5f5460c,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+b12e5cb6-9029-4e6c-b1fb-45b3a80b07f3,EBAY, Email address needs to be valid.
+3f4a9c7c-3e21-4e75-b5e1-db312d8868fa,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+5c20cfef-34db-4cf5-993c-4c7157d14c66,AMAZON, Violates listing_status_id foreign key.
+240affe1-2afd-4270-a2a8-18567290a2a4,AMAZON, Violates listing_status_id foreign key.
+ef183a05-ba20-423f-a127-8e0fc8b171d0,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+3aea63d5-e1db-4986-88a8-b80859957bdc,EBAY, Violates listing_status_id foreign key.
+1c0845b4-3c6a-4cc7-922b-52fe728254bd,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+a69d5ecc-3b34-4388-83c0-9a704939e217,EBAY, Email address needs to be valid.
+e2cb3a4b-8a19-4a6c-a058-b5de14ed9867,AMAZON, Email address needs to be valid.
+d5666bd0-0424-41c7-86be-58e50e5b84ff,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+57a54946-890a-4af2-8ba8-00da8f50f308,AMAZON, Violates listing_status_id foreign key.
+96c16291-2a4e-48fa-98fd-632dae1af6c1,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+69041318-3a67-42e3-a048-818210c5d380,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+de7515e9-e774-411f-989b-84c87c936663,AMAZON, Email address needs to be valid.
+6505896b-8fac-4505-93eb-cb61fc074775,EBAY, Email address needs to be valid.
+9e4c0d10-d008-4e84-9504-8ef7297ee385,AMAZON, Upload_time cannot be null.
+927fb273-eca8-4c29-be0f-56b59846e151,EBAY, Violates listing_status_id foreign key.
+bc041daa-e90e-463f-8e2d-0dfee15c290e,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+700d100a-55ae-4560-b74b-cd303a06d4a8,AMAZON, Email address needs to be valid.
+4ec218dc-e197-4e96-8914-4036942452a1,EBAY, Violates listing_status_id foreign key.
+40fe6b3a-4011-413d-8f8e-dde053229324,EBAY, Violates listing_status_id foreign key.
+adfc8e05-da0a-4bcc-b9e0-8b0be879a778,EBAY, Email address needs to be valid.
+53d2c99f-0708-4cd4-bc20-cab5a4d88558,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+0d3eb32e-55e8-4321-96a4-3d1256b974bb,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null. Email address needs to be valid.
+ddeb9de4-0146-46a8-979e-e6e0e0500061,EBAY, Violates listing_status_id foreign key.
+cf5ad3a0-5251-44e6-afe4-f8b6e639637b,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+43859d64-675c-465f-b459-b1d1504d7603,EBAY, Email address needs to be valid.
+a394118f-49b8-4d4d-a0b0-105cb160e018,EBAY, Upload_time cannot be null. Email address needs to be valid.
+00ca535a-0e38-4e34-a041-e29eaf81ef58,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+2e071ad4-53d4-4b61-a3f9-fac9eaa6d18c,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+49136963-8759-4fd3-874a-d2adf9f0184a,EBAY, Violates listing_status_id foreign key.
+c2c3c28f-a8a4-4315-ae27-bb1dd648703d,AMAZON, Violates listing_status_id foreign key.
+b7a3e008-a15c-4246-b091-00127e4eba67,EBAY, Violates listing_status_id foreign key.
+1fa4104d-0a53-4006-ba6f-bab94836604f,EBAY, Upload_time cannot be null.
+350bed9a-0f92-4efb-9e74-40e1b5a7c96b,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+7b47cb83-17a2-404f-8e91-409633ad6af9,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+0d592ad8-949b-4197-884f-2173b5c37563,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+a2acccf6-1eeb-46e0-bc93-7205495de6ef,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+e4196dbe-0a15-407e-9f56-98e8dcc552f6,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+5f8dae26-c8b9-4ba0-951f-ce7890942948,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+674348df-05f8-4768-8519-49aebe1b8081,EBAY, Upload_time cannot be null.
+e57f0b30-dc60-4a5f-a875-8be11d8ff1df,AMAZON, Email address needs to be valid.
+a7bf0ca9-b85f-430d-8f18-8faec805f8c2,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+20001c76-d291-4513-a551-039389295ca3,EBAY, Violates listing_status_id foreign key.
+7f1f99dc-5705-4713-b1b6-3363ac5a4e35,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+3e2d39b3-0cce-4522-a41b-09d17816052f,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+c504499f-159d-454e-8364-575c63d93443,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+ecc0a52c-2abf-48d5-9a01-6b4b20714fd1,EBAY, Violates listing_status_id foreign key.
+61c1d229-a231-4e98-84d0-9b156ab849c3,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+dc20b494-e72e-4a65-ac04-d08cac16459a,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null. Email address needs to be valid.
+b5814933-2d76-4184-abb0-555d62f3ed9c,EBAY, Violates listing_status_id foreign key.
+e3ea0b71-460a-43e3-bc95-ef5584dc5bd5,AMAZON, Email address needs to be valid.
+1095f0d7-11ac-4da1-825f-bf6fc7d83cc7,AMAZON, Email address needs to be valid.
+530a5972-8800-49e0-9ab9-b4173e39a245,EBAY, Upload_time cannot be null.
+0e261d56-6829-4dc5-8a1c-896c8f54346b,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+cc7c305a-72d0-4c96-8a6d-84ebdbf20c46,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null.
+03c9ba8e-dcff-4541-856a-144d310ce794,AMAZON, Email address needs to be valid.
+68c3aaf8-aecb-4419-b7ee-61bcf414f409,EBAY, Email address needs to be valid.
+13f80f44-ed5d-4ff2-ad38-a00e3a9a2422,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+a5b54e30-cb9d-4f7f-9a10-dca5b55a8e29,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+fa4ee435-4233-4402-9877-724f2d8833c8,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+6bc5e0da-9fdd-499c-9033-c949cb76ecfc,EBAY, Upload_time cannot be null.
+597ee7e9-57ce-4a7a-bac5-8da70cc3d79b,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+2e750062-c20e-4edb-a1bb-0cbf3ab49eda,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+74a21763-a909-488a-adae-f027129111b0,EBAY, Violates listing_status_id foreign key.
+83dd94f2-b4ab-4e02-8771-13bfae8aa96b,EBAY, Violates listing_status_id foreign key.
+18e11d69-3558-4762-9eb6-ed2d64b8b1f3,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+1a982c5b-78c0-47fb-bf8f-5df29386348c,EBAY, Violates listing_status_id foreign key.
+8a3dd59e-ad12-4bbb-99d6-84d7087e4ba8,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null. Email address needs to be valid.
+f213ce5f-67a8-4c67-ae14-68e557bdcbd4,AMAZON, Email address needs to be valid.
+3bb4c797-10b4-4cf2-9801-5a5af052f888,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+d02627e4-5d25-4bab-ae7b-8f83c91fe924,AMAZON, Violates listing_status_id foreign key.
+5ac08b0c-a769-4214-af7f-0ebd53c4dd24,AMAZON, Email address needs to be valid.
+a434ae2b-24f7-4b59-937f-943848c9bcd7,EBAY, Violates listing_status_id foreign key.
+038418ce-33a3-4da5-b0b4-46a70f62d697,AMAZON, Violates listing_status_id foreign key.
+cb113b4e-c349-43ff-82ff-af52f5cc7170,EBAY, Email address needs to be valid.
+13d7c8fe-95d3-4d87-9369-f6c91bf52f26,EBAY, Violates listing_status_id foreign key.
+7fb0ae2b-af2e-4044-bc13-28a800dfac96,EBAY, Violates listing_status_id foreign key.
+f5888f11-f894-4154-8380-0e9c10ed99d0,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+6a61cd06-c2aa-4e85-bede-bf970ff86b52,EBAY, Violates listing_status_id foreign key.
+78c6361b-3091-412e-b39a-04cf5fc6d358,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null. Email address needs to be valid.
+8d3c7709-8371-4c9d-b598-eb684a7b7675,AMAZON, Email address needs to be valid.
+355c724f-27f4-42e6-a9ab-e33e17a52299,EBAY, Email address needs to be valid.
+199efd7d-b740-4f42-b879-d97a346f73ab,EBAY, Violates listing_status_id foreign key.
+60398af9-002c-4305-bd62-d648c1eb7017,EBAY, Upload_time cannot be null. Email address needs to be valid.
+312f1061-9637-4f5f-b3e7-28f5439c79cf,AMAZON, Email address needs to be valid.
+5d08bc71-172c-41ce-bd38-f33bf8308b31,EBAY, Email address needs to be valid.
+868220c8-7433-4448-931c-c6feb9211fb1,EBAY, Email address needs to be valid.
+43b852ac-7dd7-4956-be88-bdbfb70a08b3,AMAZON, Upload_time cannot be null.
+c7998be7-bf9d-464c-ade6-c8f0b49cc35a,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+4b3820fa-edf8-4186-a9a2-9ca824d00e80,EBAY, Email address needs to be valid.
+fb2cc9cd-e3bc-48b7-92f4-794ed9661586,EBAY, Email address needs to be valid.
+b9840821-4f40-4fd0-b835-bf2e40d02ce2,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+b7383748-ce49-47cb-a73a-31bcbea6a237,EBAY, Violates listing_status_id foreign key.
+81a159df-5f2a-4432-97a4-7d2243ee4b04,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+d482cacc-a7a9-4080-a1c4-26a75c01c866,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+f42949c1-d7a4-400c-852c-6f6978d64a61,AMAZON, Email address needs to be valid.
+ce6cf3e1-bb92-4677-8dc2-c20bf2a5486b,EBAY, Upload_time cannot be null.
+ea645995-9ef5-42ae-ad40-a2dd21f28fc8,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+cc281269-e475-4c6f-b59a-d598cb6a9f66,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+6ff14833-3aa7-4f17-b75b-57033bfa0017,EBAY, Violates listing_status_id foreign key.
+397c3f69-a603-4f5d-a908-7e45a9091926,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Upload_time cannot be null.
+7da7e2a5-55fa-4bdd-911f-d934c71855be,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+c8e22ad1-770d-45c8-973e-f08218eee917,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+5d9a806d-9eb2-4f4a-9e15-563b4c64002b,EBAY, Email address needs to be valid.
+fa20bbc0-245e-484b-bcda-c187b0531075,EBAY, Email address needs to be valid.
+347cbb48-3630-494e-b411-0d243ce01a66,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+8e343fa7-fab3-44fd-aeb9-5e930bfcc416,AMAZON, Email address needs to be valid.
+ee8d242d-ea88-41d7-89f6-b0da9efa24b3,AMAZON, Violates listing_status_id foreign key.
+f69739a6-f330-4b29-a917-786e2effbe35,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+89634416-8665-4812-9f15-dc00d55ea508,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+440e16ea-cc81-47f3-889b-bb50c60bb0a6,EBAY, Upload_time cannot be null. Email address needs to be valid.
+c4b380ff-2046-4949-8c9f-d8f1da560811,AMAZON, Violates listing_status_id foreign key.
+b6918cb0-dac5-4457-8593-5bda7fb94c3f,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+87554806-5138-4cac-9ff8-2b1a19d2efd7,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+288ed6d3-d2cb-4925-adc9-9947b4c75deb,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+07e6eb51-db66-4d6a-89b3-39cc397c8b78,AMAZON, Email address needs to be valid.
+e0f89dec-3341-4b20-8334-0d738e711e9d,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+a151f0f1-b8ea-43c6-9ec5-f4625724af33,EBAY, Upload_time cannot be null.
+ca9a10cd-fbd2-4f90-8035-98333d9cdb94,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+6d5fa3bb-8c72-4cf8-a8e6-6d738d25aaf5,AMAZON, Email address needs to be valid.
+d452772b-5525-462d-ba29-14fa434f1d8d,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+f994271f-edc9-40e8-84de-6077da86e94a,EBAY, Violates listing_status_id foreign key.
+db8ea491-15fe-48b7-a230-f1d56c45fb76,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+15143717-40de-451b-b3be-924157026dd1,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+25b32556-0ad2-4d70-8d1c-af78b5a4e3f6,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+f6f64336-6523-4688-8502-1d597cd8e063,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+f36146e4-3816-43fb-998f-2f3506f5ba49,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+093f8405-2b13-4a00-9592-aa60c29e21ce,AMAZON, Violates listing_status_id foreign key.
+8ed56726-97c0-4e84-9bfc-b52dab9b2716,EBAY, Email address needs to be valid.
+c0685709-43fa-4a80-b913-c0456f8e82a8,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+5e0570af-9d67-46a3-91e3-c500a1ada93b,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+a0154afe-7705-4908-a75f-5139161c4757,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+fcf98766-26b6-455e-8c42-6dcbc378ed3c,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+b9d7e13b-f98f-4211-9c1e-064f88c669d2,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+831b40da-97e0-45e3-91e0-2434a0e5a888,EBAY, Email address needs to be valid.
+46a96b64-a91b-4a7f-9e48-d1f6b62cb7a1,AMAZON, Email address needs to be valid.
+dc53578b-2f1e-4203-a402-57efdf1af5d7,EBAY, Upload_time cannot be null. Email address needs to be valid.
+25601f15-d293-4b46-94d7-9c56d352255b,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+e0acf84b-e66f-4e63-a0d8-b1937ab63f89,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+3b248426-0e97-49dc-bfc4-0358b4518a14,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+3cef7f48-143f-4913-9d66-18aaf12736a6,EBAY, Violates listing_status_id foreign key.
+7c91f102-3ca1-45a3-bd2a-1bfaba08a153,AMAZON, Upload_time cannot be null.
+175d4c5a-9547-41de-9334-a59ac29e819f,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+0ec2bbdb-1261-4ec9-95fd-d72ec498c139,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+570a4917-0cc3-4c1d-8ac6-73f0df64ade3,AMAZON, Violates listing_status_id foreign key.
+56e7f483-a880-4688-9df3-998835b6e1c3,AMAZON, Email address needs to be valid.
+6615d2c3-d24c-445f-8953-90b0a99d5cef,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+5a3d2646-f3b9-4dfa-b921-5dbe23577f27,AMAZON, Violates listing_status_id foreign key.
+a04c1678-cf43-42cc-be02-db0a586dd56f,AMAZON, Email address needs to be valid.
+b6ad35f7-48e8-45da-9e07-ceeef4a52aaf,AMAZON, Email address needs to be valid.
+fef51d9c-2283-4c12-a0a2-0ef5d2ef4f4d,AMAZON, Violates listing_status_id foreign key.
+721868fa-fb8f-4417-91dc-94a88f0aa5db,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+46ebdb67-c962-497d-8a35-45206608b33f,EBAY, Email address needs to be valid.
+676f79e5-0967-4852-8144-577c000c449e,EBAY, Violates listing_status_id foreign key.
+70a61556-b6aa-4035-8042-05bf24b94c32,AMAZON, Email address needs to be valid.
+e41978dc-7e65-4839-9735-eadfae5cbfce,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+dac4f4f0-7d74-4dfb-9ba8-f3cae7713e17,AMAZON, Violates listing_status_id foreign key.
+37c4eee8-8f04-45c0-b924-481218d8b039,EBAY, Email address needs to be valid.
+1448a43b-c1fa-464d-8ca0-cd4c31adbaab,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+572e0ea3-da31-4132-928f-04dfdc85aefb,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+7cc09a34-adf7-4d64-8810-ef58005bd551,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+1a754360-c52d-4adb-98a9-7fb40e3de8ed,EBAY, Upload_time cannot be null. Email address needs to be valid.
+0d92a3d7-e11b-4495-a79c-72e1464082a8,EBAY, Violates listing_status_id foreign key.
+38b0195c-ba4f-4dc2-b04f-db2f2b523678,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+83a5dc9e-d42f-45a7-8b3e-8337cc166b4e,EBAY, Violates listing_status_id foreign key.
+3c817e6a-919b-4396-b1c8-a1cabb874c7d,EBAY, Violates listing_status_id foreign key.
+8abc312e-d32a-4f15-91fa-9b26a8ea2be8,EBAY, Violates listing_status_id foreign key.
+63192968-4553-4160-aace-0ca08228fe7b,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+cf082e81-4b50-4ff8-99fa-d769643807fd,AMAZON, Violates listing_status_id foreign key.
+474d97f5-7737-4514-8360-fc1af393f5a1,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+5fec578c-5a06-4aea-aaef-e1b4a1c317c7,AMAZON, Violates listing_status_id foreign key.
+3145ee7e-0acf-40ae-a96d-7442025cff04,EBAY, Upload_time cannot be null.
+8402c01c-1132-47a6-8002-35e93b837fdf,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+73f03a22-6385-4ddb-b872-40c13f5023e0,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+eb03f473-a157-4e0f-b034-7d7fe159d825,AMAZON, Email address needs to be valid.
+2fce4cf3-d9a0-4034-94a4-b7eb9a13dc67,EBAY, Upload_time cannot be null. Email address needs to be valid.
+2beb5c24-07fc-4f3f-8f9c-9190a5e929af,EBAY, Upload_time cannot be null.
+e7b2cee2-aa58-4d50-b18e-3ae12ad1bd4f,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+52e1c8bd-27ec-4db6-bafa-e518d1f3351e,EBAY, Email address needs to be valid.
+e14824ec-9e88-4244-ad23-e86368ec4c5a,AMAZON, Violates listing_status_id foreign key.
+ad5d4e4e-dc55-4e4d-a656-0f1ffcc33d76,AMAZON, Email address needs to be valid.
+e2b44306-23f0-4894-8ea5-45a1db16db7e,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+7c9d9dc5-c6b4-46cc-9122-d2cf2f110011,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+640ae434-bc8a-4a8a-9a17-eb6e252480a9,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+013f66f5-306e-4e79-9136-193b641a07e8,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+ec536ddd-712a-4f2c-9c46-43f00c2731be,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+817b2f40-3563-47bb-ad61-3ccb6e6b266f,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+7126fdba-4b27-48f4-a071-a886f0f353ef,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+d9886393-3654-42fc-8409-d17aa57ea5e0,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+285c72e1-262b-43cf-86a8-20caf5766cf0,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+bce7fbf2-4c31-4335-9ce6-4c813924a3ff,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+b08b72eb-939d-40fb-a9cc-5a9dab8aff2b,EBAY, Email address needs to be valid.
+51b5262d-da1a-4e61-b451-922b925b33f8,AMAZON, Email address needs to be valid.
+3a164b67-c134-41c5-94bb-d050b1c7d470,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+0a3fda5d-d216-4298-a6db-b7f37a816650,AMAZON, Upload_time cannot be null.
+0e1fbcc5-a340-435f-ae97-6e543ec91432,EBAY, Email address needs to be valid.
+539c7d61-1a8f-4de0-8355-2e2b3b558920,EBAY, Upload_time cannot be null.
+7bd212a7-fbb8-450a-90f5-12cceaba0c5f,EBAY, Upload_time cannot be null.
+42ae5ab4-5ada-4de8-bd05-970908753dbc,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+c7bffc65-cfd6-4ba8-bd46-187a344fe26c,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+d71cb989-50b0-4fec-a471-fa4cc12c3a19,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+bee8e2ae-e15d-4b3f-8526-c3f6956a7db6,EBAY, Violates listing_status_id foreign key.
+7292ef73-3b4d-46a8-ae66-7a4448f77f2a,EBAY, Upload_time cannot be null.
+414683ec-e114-42f7-926c-60c72d76557e,AMAZON, Violates listing_status_id foreign key.
+3c03751c-ecc4-4783-9447-c167da29b797,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+530bfce0-3c05-4d8d-a7bd-b8f77faec96f,EBAY, Violates listing_status_id foreign key.
+9150246b-45fb-4803-bdd0-57f7ff8e28ba,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+8aae6141-b283-4705-b462-f58d433ad5e2,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+7cba56c8-1520-421b-9199-7bdf5a38cf78,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+4caa8a6c-de7a-47f0-a1e7-890414582afb,AMAZON, Violates listing_status_id foreign key.
+dbb2351a-7b01-4c04-a851-4026d7ab49f1,EBAY, Violates listing_status_id foreign key.
+9df0a9b6-113c-4157-ba22-9c5c26435949,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+ef518e5f-a5b3-4649-a531-8fbb2e7b0c40,AMAZON, Email address needs to be valid.
+e4ff8763-660a-44df-a5c7-907e62c37d21,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Upload_time cannot be null. Email address needs to be valid.
+99ec5792-0d48-4600-9363-cb426e714e39,EBAY, Email address needs to be valid.
+c9ea85e4-1c30-4363-b8c7-04569734db16,AMAZON, Violates listing_status_id foreign key.
+953ee05c-9fb2-4dbd-b69c-6b3a300c43a4,EBAY, Violates listing_status_id foreign key.
+403cbc33-d62c-46ae-b353-2284d824e8f3,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+c18dee41-8b23-4f4d-97b4-d53b8e22e27b,AMAZON, Upload_time cannot be null.
+382c8b04-a514-4e28-84f0-bda118d20d47,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+63d86507-646a-4222-abac-1ec2d846ea83,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+67c55df6-3b0a-4d1d-94ee-591be72ccb10,EBAY, Upload_time cannot be null.
+3dd32157-0a39-4f3d-afc4-9c8426598fa1,AMAZON, Upload_time cannot be null.
+9ab3bb95-e413-4889-96c2-e6430dc2abc0,EBAY, Email address needs to be valid.
+85ccefad-b55b-4cf9-bf2d-5377193545dd,EBAY, Email address needs to be valid.
+90dd86ad-152b-4138-bacf-211bfab29d42,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+08cc3c11-6e39-49f4-8c24-3eb8569fa8dd,AMAZON, Upload_time cannot be null.
+a9d1fb7e-c904-43eb-b91f-ea400ccc408e,AMAZON, Violates listing_status_id foreign key.
+bba55e21-d5ed-4323-9d01-fa274960788a,EBAY, Upload_time cannot be null.
+0a381656-e9a6-464c-b303-95d239412c62,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+649545ca-d870-4aaa-8fd6-9608b3b76769,EBAY, Email address needs to be valid.
+c6ce2758-14d7-43cf-83d2-f14a24843d49,AMAZON, Violates listing_status_id foreign key.
+0c047fcb-46f4-450c-a45d-478ce1e55cf7,AMAZON, Email address needs to be valid.
+5385008a-06a3-4a24-9392-3cf4077cb951,AMAZON, Violates listing_status_id foreign key.
+23fdcd07-68d7-4b1d-8117-88dbb7db126b,EBAY, Upload_time cannot be null.
+ad3a4916-3ae5-4fe0-b1b1-900ea3a54383,EBAY, Violates listing_status_id foreign key.
+f95480ca-dc55-4775-821a-2f2ad998f732,AMAZON, Violates listing_status_id foreign key.
+6cdf3029-e509-429c-badf-bf946b427aa6,EBAY, Upload_time cannot be null.
+c79416d0-757d-41ae-97f1-9cd937f66052,EBAY, Upload_time cannot be null.
+e31f8c41-61aa-4678-a6c7-480e49c262e1,EBAY, Email address needs to be valid.
+654e141f-9ff5-4008-8bdb-2a3c0340f850,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+7a60a3f4-86b6-4758-a4d0-a88ab224f81a,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+d1d234d1-f618-464f-9130-7e2acf2784fb,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null.
+d1ce1c91-9975-4019-9b17-3e959812758d,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+bf815478-079a-4acc-82fa-855c0e4306e3,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+2478fb8a-0263-43ba-b5e1-8bd09f3e1318,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null.
+4c4afa20-1aed-429e-91e1-8f097c7b0116,EBAY, Email address needs to be valid.
+ba5534b5-62c6-4eca-a858-b78111b2f422,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+f931edda-ef9a-46ef-b67e-d5ff9f59808b,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+fc328ddd-7408-4f75-926b-c6abf6c79e0d,AMAZON, Email address needs to be valid.
+e777ba1c-6fc2-4bbf-a5be-cac5db586e2a,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+6e61c3d3-63dd-464b-8188-94bacaef6a3e,AMAZON, Email address needs to be valid.
+aac54c9e-101e-43ea-8433-0c0ecdfb19a1,AMAZON, Violates listing_status_id foreign key.
+e110d5a9-eef4-4ada-a930-9c9513b41016,EBAY, Violates listing_status_id foreign key.
+cb1fa74b-f1d3-415e-b381-3c9932dd7290,EBAY, Email address needs to be valid.
+56c7c537-48fb-4141-9631-e99d50dc2a59,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+77e8f92b-87eb-414a-adb4-5ea15ec2ea68,AMAZON, Email address needs to be valid.
+cdf297f0-f8c6-44d6-8267-1c0099669609,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+393c242c-a617-4a4d-8fe7-60f37b147abd,AMAZON, Violates listing_status_id foreign key.
+f8fb9e51-6c1e-4fcc-a5d7-e96f95223292,EBAY, Email address needs to be valid.
+df1a00bb-cad2-4c00-a4f2-94b9099d5cfd,EBAY, Email address needs to be valid.
+6f8f4ae5-dc61-4d19-b0a7-d14f9a0e5009,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+49fb2c13-e734-4a0d-877e-10427ad9c498,EBAY, Upload_time cannot be null.
+70ca68c2-2310-4ff8-a337-c51b0cf3874b,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+80d544f5-86fc-49ed-9f2d-96933f063ee2,EBAY, Email address needs to be valid.
+ea6a0ac9-afc3-4976-b53a-13a6e1c28f0d,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Upload_time cannot be null.
+7a929ab0-532f-4387-b35e-48ef50a33cbb,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+e9291484-89e5-4a93-b6d3-2efc855e71f5,EBAY, Email address needs to be valid.
+9a12f83c-ba3f-479b-88d4-d756b57be7f3,AMAZON, Email address needs to be valid.
+34aae363-b412-4498-8442-5416bfdd1c09,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+ad3c4c4c-7b0a-42d7-a399-4a74cf632331,EBAY, Email address needs to be valid.
+11552094-51d6-4ac1-8fe5-50bf879f483c,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+c3241cbe-af4a-4af6-b92a-1bc755f9f008,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+58c5ac71-a1e6-40a2-8cf2-d42953bfe1e2,AMAZON, Email address needs to be valid.
+8e74da67-5e1c-41e0-8806-f824902cc5eb,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+9e2d6985-560e-4caa-9801-4361dc79ff0c,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+3c5dbc6c-2963-4bcf-a13c-eb7e71968ed2,EBAY, Violates listing_status_id foreign key.
+44b5eaca-2d2c-4efa-a166-232b4b8f7bdd,EBAY, Email address needs to be valid.
+66f40699-b4c8-4c04-871f-151529178bc4,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+1b0b2cab-c5b9-4ab0-8398-43001e59e901,EBAY, Violates listing_status_id foreign key.
+78014b93-fafe-4c06-8e50-10ed01de59da,EBAY, Email address needs to be valid.
+a572b2e4-79b9-4a64-9648-3ad206f29939,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+dbf6b784-ac58-4144-920f-0726f681407c,AMAZON, Email address needs to be valid.
+1f28732c-c995-4867-818d-084a2679afc7,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+0f7a2798-c33b-4cbe-bce6-9ced40ffed5d,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+96390e60-cbbf-4082-aa8a-8e954e259f0e,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+af14aa73-9671-4e51-b33a-129cb9f18102,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Upload_time cannot be null.
+6475fbbe-1dea-470e-9db7-1d31df925508,EBAY, Email address needs to be valid.
+8426865a-2660-47ee-aaac-7d50d5a76e1b,AMAZON, Email address needs to be valid.
+e7367433-e73a-40c5-bc96-958882179f2f,EBAY, Violates listing_status_id foreign key.
+1ab18d72-dc9e-4f6d-9e07-c7ddd483dbb4,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+e835e284-38e9-4675-968e-a0373b2ee183,EBAY, Violates listing_status_id foreign key.
+3f57b602-7aaf-4b95-9091-0bf7816d18af,EBAY, Violates listing_status_id foreign key.
+71c68451-3b27-4527-9d72-c04179fcb3fa,EBAY, Email address needs to be valid.
+eee9578e-dbbe-4d37-b35e-943342ab0528,AMAZON, Email address needs to be valid.
+7ba2500a-3a7f-4eb4-a67c-a810ba0022b8,EBAY, Violates listing_status_id foreign key.
+2cd157a5-33e0-4b60-9633-e047c2c08e04,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+b646b31f-996e-43db-b98f-8919f981f6b0,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+bfe1cc71-0b9d-4df6-926a-62fca556aa13,EBAY, Email address needs to be valid.
+3e7c9ad5-aca5-4496-92b6-4f77da97f2f6,EBAY, Violates listing_status_id foreign key.
+1e6c612a-c863-4ba0-ac7d-55edc4669f72,AMAZON, Email address needs to be valid.
+48d17498-b3c5-4e7e-9325-2da5c7fd8498,AMAZON, Violates listing_status_id foreign key.
+9cf4c844-b35f-450d-88e1-4a0fc0271038,AMAZON, Email address needs to be valid.
+a2ac3ec8-4fee-41eb-ae07-5b0c9d5e5a2e,EBAY, Upload_time cannot be null. Email address needs to be valid.
+2d74ea62-0d20-48f3-b138-8de62660924c,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+b9ebb82a-8a09-41ca-9849-e88acfdbaaa0,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+31d83978-012f-4ec3-a4c1-061014b28733,AMAZON, Violates listing_status_id foreign key.
+8b8c3779-5645-4d6d-ae34-e76eee548984,EBAY, Upload_time cannot be null.
+8230f7c0-6a74-40ca-9f1c-2bc86e05ba5e,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+29d55ae4-b38e-4537-bb89-611c0e989feb,EBAY, Violates listing_status_id foreign key.
+b13b2434-3ae5-4c70-abb7-48a6a541c85f,AMAZON, Email address needs to be valid.
+110e5918-adc5-4f7f-8507-b19e72d6a35c,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+f570dafc-5815-4451-9f12-1cf0e59c7dab,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+bb48ddaf-f952-45bc-8410-1b2536c4e710,AMAZON, Upload_time cannot be null. Email address needs to be valid.
+53cada3c-a192-484b-9c5a-20ea98bd0847,AMAZON, Upload_time cannot be null.
+8f29c396-4875-4586-a22c-9d7d41685d45,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+7f246f54-b9ee-4f53-a49f-d9c32e56d0b7,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+fdeb8201-d219-4ad7-a2cf-033048d01e9e,EBAY, Violates listing_status_id foreign key.
+c11e2c62-bd19-46c0-ab84-3841cfbed0f7,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+0a142161-1734-4252-a541-6fc1a53f2eac,EBAY, Violates listing_status_id foreign key.
+06ee4b2d-5920-460d-b275-b2e265c17e1c,EBAY, Email address needs to be valid.
+df06c757-bb45-44f7-8587-48afb2a0b5a8,AMAZON, Email address needs to be valid.
+6d9609d4-4601-45da-87d2-f112eb48dccd,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null.
+f5f48095-21a9-42aa-a298-1c64491438ad,AMAZON, Email address needs to be valid.
+dc1ed952-7ef1-4c58-abeb-78c6a1b59342,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+e8256c5d-d6d8-4883-8d77-ddbc304fa677,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+e174ddfa-85f1-41d0-919b-b0cae16f1992,AMAZON, Violates listing_status_id foreign key. Email address needs to be valid.
+0e91d2d6-7259-45d2-a200-584d78d65de9,EBAY, Upload_time cannot be null.
+6a0f8779-abbb-4c69-92ca-643c2175c7f0,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+12f16c84-a816-4aba-aa1a-efbbb32da053,EBAY, Violates listing_status_id foreign key.
+cb4331fb-96b9-4d86-8bd3-972d618e3429,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+b23213de-4593-47ab-a4da-b4798b3d75b0,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Upload_time cannot be null.
+6048171d-4f6f-4cbc-bbaa-465bd77e8c02,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+3b40dbad-fc77-467d-9b63-b216bbbccedc,EBAY, Violates listing_status_id foreign key.
+2e068548-d5ab-43fa-8c0a-76fff8b8bfa1,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+3fdad987-44e4-489f-ba59-589dd0dd8e1e,AMAZON, Violates listing_status_id foreign key.
+83a7c527-73d7-4dc6-82bb-dd89ec2899ff,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+84dbca7a-ff34-4b29-a9fa-c1950e9d2616,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+76f98f2f-75d3-4413-b0f3-76740e106960,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+0e572df0-2804-4a2e-bcb5-74bd0213352f,AMAZON, Violates listing_status_id foreign key.
+10ad85d2-f96a-4bbf-9554-73d32e528469,EBAY, Violates listing_status_id foreign key.
+46b5ba95-aca3-4411-90c0-aae2cb60bd7d,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+6d5ad164-b2da-45a0-a6f0-44eaf2fd08a0,EBAY, Violates listing_status_id foreign key. Upload_time cannot be null.
+52e93961-4280-4bf2-bbee-4123feba1ffa,AMAZON, Violates listing_status_id foreign key. Upload_time cannot be null. Email address needs to be valid.
+6ed014ca-22f7-42d0-a888-bfc6ce8d6c75,AMAZON, Violates listing_status_id foreign key.
+dfa1fbd9-b326-40d1-8406-2555f7978ab2,AMAZON, Email address needs to be valid.
+fc1e648d-530b-4601-9c76-0274fddc2298,AMAZON, Email address needs to be valid.
+a7d03489-1f84-4495-b2a0-bea68bab4865,EBAY, Violates listing_status_id foreign key.
+2e6833da-7192-4d3c-adc3-728bf357ffb9,AMAZON, Email address needs to be valid.
+f498fde9-439e-4dcb-b6b9-a50159e759c1,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Email address needs to be valid.
+5f8b9b2b-86f5-48d6-953c-956591c3a4ae,AMAZON, Violates listing_status_id foreign key.
+fdf506f8-e2e8-49c9-abe5-f319701c3b87,EBAY, Email address needs to be valid.
+c3c9a8d6-c737-4ec0-a6a0-4413449a3487,EBAY, Upload_time cannot be null. Email address needs to be valid.
+4f4dd4a6-7812-4dea-942f-e2d9d5ca697a,AMAZON, Email address needs to be valid.
+88f8d12c-05db-4b01-af9f-a17564e6687f,AMAZON, Email address needs to be valid.
+2072c62a-5425-48a5-9964-bfc292f635ee,AMAZON, Violates listing_status_id foreign key.
+43b06600-8c67-41cf-9edd-fd63ee6a31ea,EBAY, Violates listing_status_id foreign key.
+2644f936-a202-4624-b402-e4afbc9ef8d3,EBAY, Violates listing_status_id foreign key. Email address needs to be valid.
+6f9c0bec-f70c-40a5-bd05-929becacaa9d,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
+de8f0a0e-ae00-4b79-a20d-4233743ef349,AMAZON, Violates listing_status_id foreign key.
+3ecda32f-0699-4d7a-8bba-356819570e79,AMAZON, Violates listing_status_id foreign key.
+83b1b083-5215-42de-a7e6-38d12144463c,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals.
+78011da9-5c5e-446f-addf-a4540c89c173,EBAY, Upload_time cannot be null.
+9b53e99a-d190-4bf8-87ab-0aafda373d45,AMAZON, Violates listing_status_id foreign key.
+0a4c0e74-c0be-4e5e-8e78-4a121e5f95cd,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Upload_time cannot be null.
+98f76a60-de92-4a69-b31d-e98117af83a6,EBAY, Email address needs to be valid.
+11aca384-dbf3-4481-93fe-68c70b82f995,EBAY, Email address needs to be valid.
+9a32015f-f611-4390-b7e7-1d0cd415695f,EBAY, Violates listing_status_id foreign key.
+072c7788-19e3-41e7-8610-7f2c7812df92,AMAZON, Violates listing_status_id foreign key.
+9f0f8e9a-ed2b-496f-a72a-44025e5cd881,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key.
+9961d89d-10a0-4249-9f74-42d4cbf86456,AMAZON, Listing_price needs to be greater than 0 and can only have 2 decimals. Violates listing_status_id foreign key. Email address needs to be valid.
+3727f382-60fc-4aed-bd85-5914dcbc3a80,EBAY, Listing_price needs to be greater than 0 and can only have 2 decimals.
