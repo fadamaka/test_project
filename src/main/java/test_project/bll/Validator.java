@@ -21,6 +21,7 @@ public class Validator {
 		List<String> idList = DAO.getIdListUUIDAsString("listing");
 		List<Integer> listingStatusIdList = DAO.getIdListInteger("listing_status");
 		List<Integer> marketplaceIdList = DAO.getIdListInteger("marketplace");
+		@SuppressWarnings("unchecked")
 		List<Marketplace> marketplaceList = (List<Marketplace>)(Object)DAO.getTableAsList("marketplace", Marketplace.class);
 		
 		

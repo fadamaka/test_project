@@ -10,7 +10,8 @@ import org.springframework.web.client.RestTemplate;
 
 public class Net {
 	
-	public static Object getData(String url, Class responseType) {
+	@SuppressWarnings("unchecked")
+	public static Object getData(String url, @SuppressWarnings("rawtypes") Class responseType) {
 		RestTemplate restTemplate = new RestTemplate();
 		return restTemplate.getForObject(url, responseType);
 	}

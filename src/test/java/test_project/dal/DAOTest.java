@@ -12,7 +12,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import test_project.IO.Export;
 import test_project.dto.Listing;
 import test_project.dto.ListingStatus;
 import test_project.dto.Location;
@@ -76,6 +75,7 @@ public class DAOTest {
 	}
 	@Test
 	public void getIdTableAsListTest() {
+		@SuppressWarnings("unchecked")
 		List<Marketplace> marketplaceList = (List<Marketplace>)(Object)DAO.getTableAsList("marketplace", Marketplace.class);
 		assertEquals("result",new Marketplace(1,"test_1").toString(),marketplaceList.get(0).toString());
 		assertEquals("result",new Marketplace(2,"test_2").toString(),marketplaceList.get(1).toString());

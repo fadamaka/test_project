@@ -3,12 +3,10 @@ package test_project.bll;
 import static org.junit.Assert.*;
 
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.UUID;
 
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -37,6 +37,7 @@ public class DAO {
 	public static List<Integer> getIdListInteger (String tableName) {
 		Session session = sessionFactory.openSession();
 		
+		@SuppressWarnings("unchecked")
 		List<BigDecimal> bigDecimalList = session.createNativeQuery("select id from test_project."+tableName).list();
 		List<Integer> integerList = bigDecimalList.stream().map(BigDecimal::intValue).collect(Collectors.toList());
 		
@@ -48,6 +49,7 @@ public class DAO {
 	public static List<String> getIdListUUIDAsString (String tableName) {
 		Session session = sessionFactory.openSession();
 		
+		@SuppressWarnings("unchecked")
 		List<String> integerList = session.createNativeQuery("select id::::character varying from test_project."+tableName).list();
 		
 		
@@ -55,9 +57,10 @@ public class DAO {
 		return integerList;
 	}
 	
-	public static List<Object> getTableAsList(String tableName, Class c){
+	public static List<Object> getTableAsList(String tableName, @SuppressWarnings("rawtypes") Class c){
 		Session session = sessionFactory.openSession();
 		
+		@SuppressWarnings("unchecked")
 		List<Object> list = session.createNativeQuery("select * from test_project."+tableName, c).list();
 		
 		session.close();
@@ -67,11 +70,13 @@ public class DAO {
 	
 	public static List<Object[]> getReportData(String start,String end){
 		Session session = sessionFactory.openSession();
+		@SuppressWarnings("rawtypes")
 		Query q = session.getNamedQuery("report");
 		q.setParameter(1, Integer.parseInt(start.substring(0, 4)));
 		q.setParameter(2, Integer.parseInt(end.substring(0, 4)));
 		q.setParameter(3, start);
 		q.setParameter(4, end);
+		@SuppressWarnings("unchecked")
 		List<Object[]> reportList=q.list();
 		session.close();
 		return reportList;
