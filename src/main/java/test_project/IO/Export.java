@@ -11,8 +11,6 @@ import java.util.List;
 import test_project.dto.InvalidListing;
 
 public class Export {
-	 //European countries use ";" as 
-    //CSV separator because "," is their digit separator
     private static final String CSV_SEPARATOR = ",";
     public static void writeToCSV(List<InvalidListing> invalidList)
     {
@@ -20,7 +18,6 @@ public class Export {
         {	File file = new File("files/importLog.csv");
         	FileWriter fw = new FileWriter(file);
         	BufferedWriter bw = new BufferedWriter(fw);
-            //BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("importLog.csv"), "UTF-8"));
             for (InvalidListing i : invalidList)
             {
                 StringBuffer oneLine = new StringBuffer();

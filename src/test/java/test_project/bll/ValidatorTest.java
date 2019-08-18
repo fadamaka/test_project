@@ -3,6 +3,7 @@ package test_project.bll;
 import static org.junit.Assert.*;
 
 import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.UUID;
 
@@ -21,29 +22,28 @@ import test_project.dto.Marketplace;
 import test_project.dto.list.ListingList;
 
 public class ValidatorTest {
+	private Session session = null;
 	
     @Before
     public void before() {
-    	
-	}
-	 
-	
-	@Test
-	public void validatorTest() {
 		Listing testListing = new Listing(UUID.fromString("397d4df7-4363-4209-8878-2afc8e5b33c5"),"Description.","Title.",
 				UUID.fromString("52ea143e-cb45-43af-981e-92cedb89f7a8"),new Double(595.89).floatValue(),"HUF",23,1,1,new Date(),"test@test.net");
 		Marketplace testMarketplace = new Marketplace(1, "Test marketplace");
 		Location testLocation = new Location(UUID.fromString("52ea143e-cb45-43af-981e-92cedb89f7a8"), "test", "test", "test", "test", "test", "test","test");
 		ListingStatus listingStatus = new ListingStatus(1, "test status");
 	 
-		SessionFactory sf = DAO.getSessionFactory();
-		Session session = sf.openSession();
+		session = DAO.getSessionFactory().openSession();
 		session.beginTransaction();
 		session.save(testMarketplace);
 		session.save(testLocation);
 		session.save(listingStatus);
 		session.save(testListing);
 		session.getTransaction().commit();
+	}
+	 
+	
+	@Test
+	public void validatorTest() {
 		
 		
 		ListingList testList = new ListingList();
@@ -80,22 +80,24 @@ public class ValidatorTest {
 		List<InvalidListing> invalidList= Validator.validateListing(testList);
 
 		for(int i=0; i<11; i++)
-			assertEquals("result",result[i],invalidList.get(i).getInvalidField());
+			assertEquals("result",result[i],
+					invalidList.get(i).getInvalidField());
 		
-		
-		session.beginTransaction();
-		session.delete(testListing);
-		session.delete(testMarketplace);
-		session.delete(testLocation);
-		session.delete(listingStatus);
-		session.getTransaction().commit();
-		session.close();
 		}
 	
 	@After
 	public void after() {
-			
-		DAO.close();
+		
+		String sql = 	
+				"delete from test_project.listing where 1=1;\r\n" + 
+				"delete from test_project.marketplace where 1=1;\r\n" + 
+				"delete from test_project.listing_status where 1=1;\r\n" + 
+				"delete from test_project.location where 1=1;";
+		
+		session.beginTransaction();
+		session.createNativeQuery(sql).executeUpdate();
+		session.getTransaction().commit();
+		session.close();
 	}
 }
 
