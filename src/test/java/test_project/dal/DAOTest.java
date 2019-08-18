@@ -2,6 +2,7 @@ package test_project.dal;
 
 import static org.junit.Assert.*;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.GregorianCalendar;
 import java.util.List;
@@ -101,6 +102,30 @@ public class DAOTest {
 			
 				
 		
+	}
+	@Test
+	public void deleteAllTest() {
+		session.beginTransaction();
+		String sql = "select count(id) from test_project.";
+		assertEquals(new BigInteger("7"),session.createNativeQuery(sql+"listing").getSingleResult());
+		assertEquals(new BigInteger("2"),session.createNativeQuery(sql+"marketplace").getSingleResult());
+		assertEquals(new BigInteger("2"),session.createNativeQuery(sql+"listing_status").getSingleResult());
+		assertEquals(new BigInteger("2"),session.createNativeQuery(sql+"location").getSingleResult());
+		
+		DAO.deleteAll();
+		
+
+		assertEquals(new BigInteger("0"),session.createNativeQuery(sql+"listing").getSingleResult());
+		assertEquals(new BigInteger("0"),session.createNativeQuery(sql+"marketplace").getSingleResult());
+		assertEquals(new BigInteger("0"),session.createNativeQuery(sql+"listing_status").getSingleResult());
+		assertEquals(new BigInteger("0"),session.createNativeQuery(sql+"location").getSingleResult());
+
+		session.getTransaction().commit();
+	}
+	
+	@Test
+	public void connectionTest() {
+		assertTrue(DAO.isConnected());
 	}
 	
 
