@@ -8,9 +8,6 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-
 import test_project.dto.InvalidListing;
 
 public class Export {
@@ -44,28 +41,6 @@ public class Export {
     }
     
     public static void createReportJSON(List<Object[]> stringList) {
-    	
-    	JSONArray reportArray = new JSONArray();
-    	
-    	for(Object[] i : stringList) {
-    		JSONObject reportObject = new JSONObject();
-    		for(int j=0; j<9; j++)
-    			if(i[j]!=null)reportObject.put("empty"+j, i[j].toString());
-    			else reportObject.put("empty"+j, "null");
-    		reportArray.add(reportObject);
-    	}
-    	try (FileWriter file = new FileWriter("files/report.json")) {
-    		 
-            file.write(reportArray.toJSONString());
-            file.flush();
- 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    	
-    }
-    
-    public static void createReportNiceJSON(List<Object[]> stringList) {
     	try {
     		File file = new File("files/report.json");
     		FileWriter fw = new FileWriter(file);

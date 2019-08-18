@@ -33,7 +33,7 @@ public class Routine {
 	
 	public static void createAndUploadReport() {
 		List<Object[]> stringList = DAO.getReportData("2017/01", "2019/0e7");
-		Export.createReportNiceJSON(stringList);
+		Export.createReportJSON(stringList);
 		Net.uploadToFTP("report.json", "localhost", "test_project", "12345");
 	}
 	
