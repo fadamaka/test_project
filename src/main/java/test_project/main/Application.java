@@ -18,28 +18,27 @@ public class Application {
 	private static final Logger log = LoggerFactory.getLogger(Application.class);
 
 	public static void main(String args[]) {
-		SpringApplication.run(Application.class);
+		SpringApplication.run(Application.class, args);
 	}
-	/*
-	@Bean
-	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();
-	}
-	*/
 
 	@Bean
 	public CommandLineRunner run() throws Exception {
 		return args -> { 
+			log.info("Testing database connection.");
 			if(DAO.isConnected()) {
+				log.info("Database is connected.");
+				log.info("Data synchronization started.");
 				Routine.synchData();
-				log.info("Data synched succesfully");
+				log.info("Data synched successfully");
+				
 				Routine.createAndUploadReport();
-				log.info("Report created and uploaded to ftp.");
-			
-				//Routine.commander();
+				
+				if(args.length!=0 && args[0].equals("1"))
+					Routine.commander();
 			
 				DAO.close();
-				log.info("Exiting...");}
+				log.info("Exiting application...");
+			}
 			else log.info("Database connection not set up properly.");
 		};
 	}

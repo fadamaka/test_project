@@ -8,16 +8,6 @@ import test_project.web.Net;
 
 public class Import {
 	
-	/*public static ResponseEntity<List<Marketplace>> getMarketplaceData(RestTemplate restTemplate, String url, ParameterizedTypeReference<List<Marketplace>> parameterizedTypeReference){
-		return restTemplate.exchange(
-				url,
-				HttpMethod.GET,
-				null,
-				parameterizedTypeReference);
-	}*/
-	
-
-	
 	public static MarketplaceList getMarketplaceList(){
 		return (MarketplaceList)Net.getData("https://my.api.mockaroo.com/marketplace?key=63304c70",MarketplaceList.class);
 	}

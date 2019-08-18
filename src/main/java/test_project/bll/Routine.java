@@ -8,14 +8,20 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.Properties;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import test_project.IO.Export;
 import test_project.IO.Import;
 import test_project.dal.DAO;
 import test_project.dto.InvalidListing;
 import test_project.dto.list.*;
+import test_project.main.Application;
 import test_project.web.Net;
 
 public class Routine {
+	
+	private static final Logger log = LoggerFactory.getLogger(Application.class);
 
 	@SuppressWarnings("unchecked")
 	public static void synchData() {
@@ -30,6 +36,7 @@ public class Routine {
 		
 		List<InvalidListing> invalidList = Validator.validateListing(listingList);
 		Export.writeToCSV(invalidList);
+		log.info("File importLog.CSV created.");
 		
 		DAO.saveOrUpdate((List<Object>)(Object)listingList);
 		}
@@ -41,6 +48,7 @@ public class Routine {
 		
 		List<Object[]> stringList = DAO.getReportData("2017/01", "2019/07");
 		Export.createReportJSON(stringList);
+		log.info("Report created.");
 		
         try (InputStream input = new FileInputStream("resources/ftp.properties")) {
 
@@ -54,35 +62,39 @@ public class Routine {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-		Net.uploadToFTP("report.json", host, user, pw);
+		if(Net.uploadToFTP("report.json", host, user, pw))
+			log.info("Report uploaded to the FTP server.");
+		else
+			log.info("Could not login into the FTP server. Report wasn't uploaded.");
 	}
 	
 	public static void commander() {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String cmd = "";
-		System.out.println();
+		log.info("Entered commander");
+		log.info("Type \"help\" to get the list of commands");
 		inputloop: 
 			while(!cmd.equals("exit")) {
 				try {
 					cmd=reader.readLine();
 					switch (cmd) {
 						case"help":
-							System.out.println("list of commands: synchronize, exit");
+							log.info("list of commands: synchronize, report, delete_all, exit");
 							break;
 						case"synchronize":
 							synchData();
-							System.out.println("Data synchronized.");
+							log.info("Data synchronized.");
 							break;
 						case"report":
 							createAndUploadReport();
-							System.out.println("Report created and uploaded.");
+							log.info("Report created and uploaded.");
 							break;
-						case"deleteAll":
+						case"delete_all":
 							DAO.deleteAll();
-							System.out.println("All tables truncated.");
+							log.info("All tables truncated.");
 							break;
 						case"exit":
-							System.out.println("exiting");
+							log.info("Exiting commander.");
 					break inputloop;
 				}
 			} catch (IOException e) {
@@ -91,4 +103,6 @@ public class Routine {
 				
 		}
 	}
+	
+	
 }

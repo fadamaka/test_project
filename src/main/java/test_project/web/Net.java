@@ -16,16 +16,18 @@ public class Net {
 		return restTemplate.getForObject(url, responseType);
 	}
 	
-	public static void uploadToFTP(String fileName, String server, String user, String password) {
+	public static Boolean uploadToFTP(String fileName, String server, String user, String password) {
 		FTPClient client = new FTPClient();
+		Boolean loggedIn = false;
 		
 		// Read the file from resources folder.
         try (InputStream is = new FileInputStream(new File("files/"+fileName))) {
             client.connect(server);
-            client.login(user, password);
-
+            loggedIn = client.login(user, password);
+            
+            if(loggedIn)
             // Store file to server
-            client.storeFile(fileName, is);
+            	client.storeFile(fileName, is);
             client.logout();
         } catch (IOException e) {
             e.printStackTrace();
@@ -36,7 +38,6 @@ public class Net {
                 e.printStackTrace();
             }
         }
+        return loggedIn;
     }
-	
-
 }
